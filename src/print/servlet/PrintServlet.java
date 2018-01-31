@@ -13,8 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/PrintServlet")
 public class PrintServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
-	
+
       public PrintServlet() {
     	  super();
       }
