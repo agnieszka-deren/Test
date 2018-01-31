@@ -34,6 +34,8 @@ public class PrintServlet extends HttpServlet {
         } else {
         	writer.println("<h1>Siemka!!!</h1>");
         }
+        
+        writer.println("<p> Mi³ego dnia </p>");
         writer.println("</body>");
         writer.println("</html>");
 		
